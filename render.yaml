@@ -1,0 +1,18 @@
+# Render Blueprint: New > Blueprint > pick this repo. Set GROQ_API_KEY in the dashboard when asked.
+services:
+  - type: web
+    name: viaa-student-support-desk
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips="*"
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: GROQ_API_KEY
+        sync: false            # secret: entered in the Render dashboard, never committed
+      - key: GROQ_MODEL
+        value: openai/gpt-oss-20b
+      - key: COOKIE_SECURE
+        value: "1"             # site is served over HTTPS, so the session cookie is Secure

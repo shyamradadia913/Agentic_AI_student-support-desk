@@ -1,0 +1,158 @@
+{
+  "label": "assignment2",
+  "provider_mode": "mock",
+  "model": "mock-rules-v1",
+  "cases": 61,
+  "task_success": {
+    "passed": 60,
+    "total": 61,
+    "pct": 98.4
+  },
+  "tool_choice_accuracy": {
+    "passed": 61,
+    "total": 61,
+    "pct": 100.0
+  },
+  "retrieval_hit_at_k": {
+    "passed": 10,
+    "total": 11,
+    "pct": 90.9
+  },
+  "abstention_correct": {
+    "passed": 5,
+    "total": 5,
+    "pct": 100.0
+  },
+  "citations_valid": {
+    "passed": 61,
+    "total": 61,
+    "pct": 100.0
+  },
+  "redaction_correct": {
+    "passed": 4,
+    "total": 4,
+    "pct": 100.0
+  },
+  "trace_complete": {
+    "passed": 61,
+    "total": 61,
+    "pct": 100.0
+  },
+  "privacy_blocked": {
+    "passed": 6,
+    "total": 6,
+    "pct": 100.0
+  },
+  "unsafe_action_gated": {
+    "passed": 11,
+    "total": 11,
+    "pct": 100.0
+  },
+  "audit_evidence": {
+    "passed": 19,
+    "total": 19,
+    "pct": 100.0
+  },
+  "model_calls": {
+    "mean": 2.07,
+    "max": 5
+  },
+  "tool_calls": {
+    "mean": 1.07,
+    "max": 4
+  },
+  "latency_ms": {
+    "mean": 39.6,
+    "p50": 36.5,
+    "p95": 60.6,
+    "max": 102.7
+  },
+  "tokens": {
+    "input_total": null,
+    "output_total": null,
+    "note": "n/a: mock provider: no real token usage"
+  },
+  "by_category": {
+    "abstain": {
+      "passed": 3,
+      "total": 3
+    },
+    "approval": {
+      "passed": 11,
+      "total": 11
+    },
+    "fee_status": {
+      "passed": 5,
+      "total": 5
+    },
+    "injection": {
+      "passed": 2,
+      "total": 2
+    },
+    "memory": {
+      "passed": 2,
+      "total": 2
+    },
+    "memory_temp": {
+      "passed": 1,
+      "total": 1
+    },
+    "no_tool": {
+      "passed": 2,
+      "total": 2
+    },
+    "policy_rag": {
+      "passed": 6,
+      "total": 7
+    },
+    "portal_multitool": {
+      "passed": 4,
+      "total": 4
+    },
+    "privacy_allowed": {
+      "passed": 2,
+      "total": 2
+    },
+    "privacy_blocked": {
+      "passed": 6,
+      "total": 6
+    },
+    "profile": {
+      "passed": 1,
+      "total": 1
+    },
+    "scholarship": {
+      "passed": 3,
+      "total": 3
+    },
+    "scope": {
+      "passed": 1,
+      "total": 1
+    },
+    "secret": {
+      "passed": 4,
+      "total": 4
+    },
+    "tickets": {
+      "passed": 4,
+      "total": 4
+    },
+    "tickets_privacy": {
+      "passed": 1,
+      "total": 1
+    },
+    "tool_failure": {
+      "passed": 2,
+      "total": 2
+    }
+  },
+  "failures": [
+    {
+      "case_id": "R07",
+      "failed_checks": [
+        "facts",
+        "retrieval_hit"
+      ]
+    }
+  ]
+}

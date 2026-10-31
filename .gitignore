@@ -1,0 +1,9 @@
+data/support.db
+.env
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+venv/
+data/*.db
+*.zip
