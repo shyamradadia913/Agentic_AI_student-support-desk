@@ -1,6 +1,6 @@
 # Student Support Agent — Assignments 1 & 2
 
-A chat agent for a **fictional** institute (Vantage Institute of Applied Analytics). It decides when to answer directly,
+A chat agent for a **fictional** institute. It decides when to answer directly,
 call a tool, retrieve handbook policy or use remembered preferences (Assignment 1), and does so safely: signed-in identity,
 per-student privacy, human approval for sensitive actions and an append-only audit trail (Assignment 2).
 All data and policies are synthetic (`data/policies/handbook.md`, `app/seed.py`).
