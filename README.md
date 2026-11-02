@@ -1,7 +1,7 @@
 # Student Support Desk: Agentic AI Engineering (Assignments 1 & 2)
 
-#**Live demo:** https://viaa-student-support-desk.onrender.com/
-(Free hosting: the first load after a quiet period can take about 50 seconds, and demo data is re-created on restart.)#
+## **Live demo:** https://viaa-student-support-desk.onrender.com/
+(Free hosting: the first load after a quiet period can take about 50 seconds, and demo data is re-created on restart.)
 
 ![Demo: asking a question and opening the agent trace](docs/images/demo.gif)
 
