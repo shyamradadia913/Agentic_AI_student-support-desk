@@ -200,7 +200,7 @@ Examples of what the agent chooses between:
 | Another student's data: denied | Course change waiting for approval |
 | ![Reviewer approvals](docs/images/05-approvals.png) | ![Audit log](docs/images/06-audit.png) |
 | Reviewer console: approve or reject | Append-only audit log |
-| ![Tracing console](docs/images/07-tracing.png) | ![Dark mode](docs/images/08-dark.png) |
+| ![Tracing console](docs/images/07-tracing.png) | ![Dark mode](docs/images/08-Light.png) |
 | Tracing console across students | Light and dark themes |
 
 ### Sample conversations
