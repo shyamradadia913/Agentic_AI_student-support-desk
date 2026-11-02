@@ -3,13 +3,15 @@
 **Live demo:** https://viaa-student-support-desk.onrender.com/
 (Free hosting: the first load after a quiet period can take about 50 seconds, and demo data is re-created on restart.)
 
+![Demo: asking a question and opening the agent trace](docs/images/demo.gif)
+
 A chat agent for a institute. It decides when to answer directly, call a tool, retrieve handbook policy or use
 remembered preferences (Assignment 1), and does so safely: signed-in identity, per-student privacy, human approval for sensitive
 actions and an append-only audit trail (Assignment 2). All data and policies are synthetic (`data/policies/handbook.md`, `app/seed.py`).
 
 Assignment 2 extends the same code as Assignment 1; nothing was restarted. No API keys or passwords are stored in this repository.
 
-**Author:** Shyam Radadia, PGDM (AI & Data Science), Adani Institute of Digital Technology Management (AIDTM), Ahmedabad.
+**Author:** Shyam Radadia, PGDM (AI & Data Science), Adani Institute of Digital Technology Management (AIDTM), Gandhinagar.
 Final project for the course *Agentic AI Engineering*.
 
 ---
@@ -200,7 +202,7 @@ Examples of what the agent chooses between:
 | Another student's data: denied | Course change waiting for approval |
 | ![Reviewer approvals](docs/images/05-approvals.png) | ![Audit log](docs/images/06-audit.png) |
 | Reviewer console: approve or reject | Append-only audit log |
-| ![Tracing console](docs/images/07-tracing.png) | ![Dark mode](docs/images/08-dark.png) |
+| ![Tracing console](docs/images/07-tracing.png) | ![Dark mode](docs/images/08-Light.png) |
 | Tracing console across students | Light and dark themes |
 
 ### Sample conversations
