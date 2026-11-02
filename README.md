@@ -3,6 +3,8 @@
 **Live demo:** https://viaa-student-support-desk.onrender.com/
 (Free hosting: the first load after a quiet period can take about 50 seconds, and demo data is re-created on restart.)
 
+![Demo: asking a question and opening the agent trace](docs/images/demo.gif)
+
 A chat agent for a institute. It decides when to answer directly, call a tool, retrieve handbook policy or use
 remembered preferences (Assignment 1), and does so safely: signed-in identity, per-student privacy, human approval for sensitive
 actions and an append-only audit trail (Assignment 2). All data and policies are synthetic (`data/policies/handbook.md`, `app/seed.py`).
